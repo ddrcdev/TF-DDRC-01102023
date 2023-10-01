@@ -1,0 +1,52 @@
+{
+  "name_restaurante": "Café Delicias",
+  "tipo_cocina": "Cafetería y Pastelería",
+  "mains": [
+    {
+      "name": "Croissant de Jamón y Queso",
+      "description": "Delicioso croissant relleno de jamón y queso suizo, acompañado de una ensalada fresca.",
+      "price": "9"
+    },
+    {
+      "name": "Bagel de Salmón",
+      "description": "Bagel tostado con salmón ahumado, queso crema, pepino y alcaparras.",
+      "price": "11"
+    },
+    {
+      "name": "Sándwich Caprese",
+      "description": "Pan de masa madre con tomate, mozzarella fresca, albahaca y un toque de pesto.",
+      "price": "8"
+    }
+  ],
+  "sides": [
+    {
+      "name": "Croissant de Chocolate",
+      "price": "4"
+    },
+    {
+      "name": "Galleta de Avena y Pasas",
+      "price": "3"
+    },
+    {
+      "name": "Tarta de Frutas",
+      "price": "6"
+    }
+  ],
+  "drinks": [
+    {
+      "name": "Café Latte",
+      "price": "5",
+      "category": "bebida"
+    },
+    {
+      "name": "Té Chai",
+      "price": "4",
+      "category": "bebida"
+    },
+    {
+      "name": "Batido de Fresa",
+      "price": "6",
+      "category": "bebida"
+    }
+  ]
+}
