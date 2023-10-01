@@ -1,0 +1,162 @@
+/* Web3.css */
+
+.web3 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 14%; /* Puedes ajustar el ancho según tus necesidades */
+  background-color: #f5b057;
+  display: fixed;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  transition: transform 0.3s ease;
+}
+
+.web3-collapsed {
+  width: 3%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #f5b057;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  transition: transform 0.3s ease;
+}
+
+.web3-h1 {
+  display: fixed; 
+  font-size: 1.5rem;
+  margin: 5%;
+  max-height: 100%;
+  justify-content: space-between;
+}
+
+.web3-title {
+  margin-right: 35%;
+}
+
+.web3-button-svg {
+  fill: #ffffff; /* Color del ícono del botón */
+}
+
+.web3-button-svg-collapsed {
+  fill: #ffffff; /* Color del ícono del botón */
+  justify-content: center;
+}
+
+
+.web3-li {
+  margin-bottom: 0.5rem;
+}
+
+.web3-svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+.hide {
+  display: none;
+}
+
+.web3-body {
+  margin-top: 15%;
+  text-align: center;
+}
+
+.web3-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2196f3; /* Color de fondo del botón */
+  color: #ffffff; /* Color del texto del botón */
+  border: none; /* Sin borde */
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer;
+  margin-top: 10%;
+  transition: background-color 0.3s ease; /* Transición de color suave */
+}
+
+.unit-change{
+  margin-left: 4%;
+}
+.web3-button:hover {
+  background-color: #0d8add; /* Color de fondo del botón al pasar el mouse */
+}
+
+.walletButton {
+  display: flex;
+
+  background-color: #999891; /* Color de fondo del botón */
+  color: #ffffff; /* Color del texto del botón */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer;
+  justify-content: center;
+  margin-top: 20%;
+  margin-left: 15%;
+  margin-bottom: 15%;
+}
+
+.walletButton-svg {
+  fill: #ffffff; /* Color del ícono del botón */
+  margin-right: 5px; /* Espacio entre el ícono y el texto */
+}
+
+.web3-label-container {
+  display: flex;
+  align-items: center;
+  margin-top: 7%;
+  margin-left: 10%;
+  margin-right: 20%;
+}
+
+.web3-label{
+  text-align: left;
+  font-weight: bold;
+  margin: 0; /* Elimina el margen por defecto */ 
+}
+
+.web3-data{
+  flex: 1;
+  text-align: right;
+  font-size: 18px;
+  margin-bottom: 2.5%;
+}
+.web3-list{
+  margin-top: 5%;
+}
+
+
+.web3-amount {
+  flex: 1;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.connected{
+  color: rgb(73, 116, 8);
+  font-size: 15px;
+  text-decoration: dotted;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.contract-data-container {
+  display: flex;
+  align-items: center;
+  margin-top: 14%;
+  margin-left: 10%;
+  margin-right: 20%;
+}

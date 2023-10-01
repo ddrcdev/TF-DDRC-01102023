@@ -1,0 +1,140 @@
+.order-traker-container {
+    padding: 2rem 2rem 1rem;
+    margin: 0 auto;
+    max-width: 50rem;
+    background-color: var(--light);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    display: flex; /* Add this to use flexbox for vertical alignment */
+    flex-direction: row; /* Stack child elements vertically */
+    align-items: center; /* Center children horizontally */
+  }
+  
+
+  /* Estilos para el título */
+  .order-traker-container h2 {
+    margin-bottom: 1rem; /* Agrega un margen inferior al título */
+  }
+
+  .table-container {
+    overflow-y: auto;
+    max-height: 500px; /* Adjust the maximum height as needed */
+    min-width: 600px;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .tracking-table,
+  .metrics-table {
+    width: 100%;
+    margin: 0 auto; /* Centrar horizontalmente */
+  }
+  /* Add this style to fix the header */
+  .tracking-table thead {
+    position: sticky;
+    top: 0;
+    background-color: #f0f0f0;
+    z-index: 1;
+  }
+  
+  /* Estilos para las celdas de encabezado */
+  .tracking-table th {
+    background-color: #f0f0f0; /* Color de fondo para las celdas de encabezado */
+    padding: 10px; /* Espaciado interno */
+    text-align: left; /* Alineación de texto */
+    text-align: center;
+  }
+  
+  /* Estilos para las celdas de datos */
+  .tracking-table td {
+    padding: 10px; /* Espaciado interno */
+    border-bottom: 1px solid #ddd; /* Borde inferior */
+    text-align: center;
+  }
+  
+  /* Ajustar el ancho de las columnas */
+  .tracking-table th,
+  .tracking-table td {
+    width: 25%; /* Divide el ancho disponible en 4 columnas */
+  }
+
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+  }
+  
+  .popup button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .popup button:hover {
+    background-color: #0056b3;
+  }
+
+
+  .metrics-container {
+    padding: 2rem 2.25rem 1rem;
+    margin: 0 auto;
+    max-width: 50rem;
+    background-color: var(--light);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+  }
+  
+
+  .close-button{
+    position: fixed;
+    top:10%;
+    right: 10%;
+    background-color: #df352fec;
+    color: #ffffff; 
+    border: none;
+    width: 10%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: translateX(-50%);
+  }
+
+  .pulse-button {
+    animation: pulse 1s infinite alternate;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }

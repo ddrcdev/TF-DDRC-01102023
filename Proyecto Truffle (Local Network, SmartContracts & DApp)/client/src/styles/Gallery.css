@@ -1,0 +1,55 @@
+/* Gallery.css */
+
+.gallery-container {
+    margin-top: 20px;
+    align-items: center;
+    margin-top: 50%;
+  }
+  
+  .gallery {
+    display: flex;   
+    overflow: hidden;
+  }
+  
+  .nft {
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border: 2px solid #ccc; /* Agrega un borde alrededor de cada NFT */
+    border-radius: 5px;
+    margin: 5px; /* Espacio entre los NFTs */
+    box-sizing: border-box; /* Asegura que el borde no afecte el tamaño total */
+  }
+  
+  .nft img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .nft.active {
+    opacity: 1;
+  }
+  
+  .gallery-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .gallery-buttons button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #999891;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .gallery-buttons button:hover {
+    background-color: #666555;
+  }
+  

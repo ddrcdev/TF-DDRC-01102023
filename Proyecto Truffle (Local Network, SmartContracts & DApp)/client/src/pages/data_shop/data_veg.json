@@ -1,0 +1,61 @@
+{
+  "name_restaurante": "The Moonrise Dinner",
+  "tipo_cocina": "Vegana",
+  "mains": [
+    {
+      "name": "Burger Vegana",
+      "description": "Hamburguesa vegana casera con una mezcla de lentejas y champiñones, acompañada de batatas fritas.",
+      "price": "16",
+      "ingredientes": "Lentejas, champiñones, batatas"
+    },
+    {
+      "name": "Tacos de Jackfruit",
+      "description": "Tacos rellenos de jackfruit deshebrado, guacamole, y pico de gallo, servidos con tortillas de maíz.",
+      "price": "14",
+      "ingredientes": "Jackfruit, guacamole, pico de gallo, tortillas de maíz"
+    },
+    {
+      "name": "Ramen Vegano",
+      "description": "Sopa de ramen vegana con caldo de miso, tofu, algas y vegetales frescos.",
+      "price": "15",
+      "ingredientes": "Tofu, algas, vegetales, caldo de miso"
+    }
+  ],
+  "sides": [
+    {
+      "name": "Ensalada de Quinoa",
+      "price": "7",
+      "ingredientes": "Quinoa, vegetales, aderezo vegano"
+    },
+    {
+      "name": "Chips de Kale",
+      "price": "5",
+      "ingredientes": "Kale, aceite de oliva, sal"
+    },
+    {
+      "name": "Sopa de Calabaza",
+      "price": "6",
+      "ingredientes": "Calabaza, caldo de verduras, especias"
+    }
+  ],
+  "drinks": [
+    {
+      "name": "Jugo Detox",
+      "price": "8",
+      "category": "bebida",
+      "ingredientes": "Frutas y verduras frescas"
+    },
+    {
+      "name": "Agua de Coco",
+      "price": "4",
+      "category": "bebida",
+      "ingredientes": "Agua de coco natural"
+    },
+    {
+      "name": "Smoothie Verde",
+      "price": "6",
+      "category": "bebida",
+      "ingredientes": "Espinaca, plátano, manzana, jugo de naranja"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name_restaurante": "La Brasa Brava",
+  "tipo_cocina": "Carnes y parrilla",
+  "mains": [
+    {
+      "name": "Churrasco Argentino",
+      "description": "Jugoso churrasco de carne de res argentina, acompañado de chimichurri y papas fritas.",
+      "price": "25"
+    },
+    {
+      "name": "Costillas BBQ",
+      "description": "Costillas de cerdo glaseadas en salsa BBQ, servidas con elote asado y ensalada de col.",
+      "price": "22"
+    },
+    {
+      "name": "Pollo a la Brasa",
+      "description": "Pollo entero marinado y asado a la brasa, acompañado de yucas fritas y salsa huancaina.",
+      "price": "18"
+    }
+  ],
+  "sides": [
+    {
+      "name": "Papas Rusticas",
+      "price": "5"
+    },
+    {
+      "name": "Vegetales Asados",
+      "price": "6"
+    },
+    {
+      "name": "Arroz Pilaf",
+      "price": "4"
+    }
+  ],
+  "drinks": [
+    {
+      "name": "Vino Tinto",
+      "price": "7",
+      "category": "bebida"
+    },
+    {
+      "name": "Cerveza Artesanal",
+      "price": "6",
+      "category": "bebida"
+    },
+    {
+      "name": "Limonada Natural",
+      "price": "4",
+      "category": "bebida"
+    }
+  ]
+}

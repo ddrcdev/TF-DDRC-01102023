@@ -1,0 +1,238 @@
+:root {
+  --primary: #312951;
+  --secondary: #473d72;
+  --light: #fafafd;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.centered {
+  text-align: center;
+}
+
+.right-aligned {
+  text-align: right;
+}
+
+.currency::after {
+  content: "$";
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+::selection {
+  background-color: var(--primary);
+  color: var(--light);
+}
+
+body {
+  color: var(--primary);
+  background-color: var(--primary);
+  padding: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji;
+}
+
+.input-container {
+  display: flex;
+  margin-right: 10px;
+}
+
+.increment-button,
+.decrement-button {
+  width: 25px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.decrement-button {
+  margin-right: 2px; /* Aumenta el margen derecho para separar los botones */
+  background-color: #e0e0e0; /* Cambia el color de fondo para el botón de incremento */
+}
+
+.increment-button {
+  margin-left: 2px; /* Aumenta el margen izquierdo para separar los botones */
+  background-color: #f0f0f0; /* Cambia el color de fondo para el botón de decremento */
+}
+
+.menu {
+  padding: 2rem 2.25rem 1rem;
+  margin: 0 auto;
+  max-width: 50rem;
+  background-color: var(--light);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 660px) {
+  .menu {
+    display: grid;
+    grid-gap: 4rem;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.menu-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.mains {
+  grid-column: 1 / 2;
+}
+
+.mains-name {
+  margin: 0;
+  flex-grow: 1;
+}
+
+.mains-description {
+  flex: 1 1 100%;
+  margin: 0.75rem 0 0;
+  color: var(--secondary);
+}
+
+.aside {
+  grid-column: 2 / 3;
+}
+
+.extras {
+  color: var(--secondary);
+}
+
+.extras + .extras {
+  margin-top: 1.5rem;
+}
+
+@media (min-width: 660px) {
+  .extras + .extras {
+    margin-top: 2.5rem;
+  }
+}
+
+.extras .menu-item {
+  margin-bottom: 0.75rem;
+}
+
+.extras-heading {
+  margin: 0 0 1.5rem;
+  border-bottom: 1px solid var(--secondary);
+}
+
+.extras-name {
+  flex-grow: 1;
+}
+
+.total {
+  grid-column: 1 / 3;
+  margin-top: 2.5rem;
+  padding: 0.75rem 0 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: sticky;
+  bottom: 0;
+  color: var(--secondary);
+  background-color: var(--light);
+  border-top: 1px solid var(--secondary);
+  box-shadow: 0 -0.5rem 0.75rem 0.5rem var(--light);
+}
+
+@media (min-width: 660px) {
+  .total {
+    margin-top: 0;
+  }
+}
+
+.total-title {
+  margin: 0;
+}
+
+.total-price {
+  font-size: 1.5rem;
+}
+
+/* Estilos para los botones en la parte inferior */
+.button-container {
+  display: flex;
+  position: fixed;
+  bottom: 10%;
+}
+
+.rest-button {
+  padding: 20px 60px; /* Padding absoluto en píxeles */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-start; /* Alinea el botón "Rest" a la izquierda */
+  position: fixed;
+  left:30%;
+  bottom: 10%;
+  
+}
+
+.rest-button-2 {
+  padding: 20px 60px; /* Padding absoluto en píxeles */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-start; /* Alinea el botón "Rest" a la izquierda */
+  position: fixed;
+  left:57%;
+  bottom: 10%;
+}
+
+.nft-button {
+  padding: 1.25% 5%; /* Padding absoluto en píxeles */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-end;
+  position: fixed;
+  left:57% /* Alinea el botón "NFT" a la derecha */
+}
+
+
+.rest-address-label{
+  position: fixed;
+  top:10%
+}
+
+.rest-address{
+  position: fixed;
+  top:15%
+}
+
+.logo-centered{
+  position: inherit;
+  margin-left: 28.5%;
+}
+
+.back-btn {
+  display: inline-block;
+}
+
+.copiado {
+  color: green; /* Puedes cambiar el color cuando se copia */
+  text-decoration: none; /* Opcional: puedes quitar el subrayado cuando se copia */
+  cursor: pointer; /* Cambia el cursor a una mano para indicar que es cliclable */
+}
+
